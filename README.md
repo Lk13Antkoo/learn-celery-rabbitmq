@@ -5,21 +5,17 @@ powerful queue patterns using RabbitMQ as the message broker.
 
 
 ## System requirements
+Running with Linux
 
-This repository is Codespaces ready, so RabbitMQ and the Flask Python
-application will work out of the box. If you are learning how these all work
-together, it is the **easiest way to get started** without feeling overwhelmed
-by the complexity of installing dependencies. 
+Bước 1: chạy Celery app: bạn nên  vô path app luôn bởi vì bạn đang import main trong đó, các biến môi trường có thể ko hiểu path đó đâu nếu bạn ko trỏ thẳng nơi chứa main.py =))
 
-If you want to use Docker on your own system you can run the following:
+	Bước 2: chạy Flask app bạn nên  vô path app luôn bởi vì bạn đang import main trong đó, các biến môi trường có thể ko hiểu path đó đâu nếu bạn ko trỏ thẳng nơi chứa main.py =)) rồi lệnh chạy app cho đỡ rắc rối.
+	
+	Bước 3: nhập lệnh:
+	
+	
+![image](https://github.com/user-attachments/assets/600c35ab-a08e-4338-b529-745bbb6573b2)
 
-```bash
-# latest RabbitMQ 3.12
-docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.12-management
-```
-
-Finally, for other systems, refer to the [download installation documentation on
-RabbitMQ's website](https://www.rabbitmq.com/download.html).
 
 ## Start Celery
 
