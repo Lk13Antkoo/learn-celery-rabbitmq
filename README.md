@@ -7,11 +7,11 @@ powerful queue patterns using RabbitMQ as the message broker.
 ## System requirements
 Running with Linux
 
-	Bước 1: chạy Celery app: bạn nên  vô path app luôn bởi vì bạn đang import main trong đó, các biến môi trường có thể ko hiểu path đó đâu nếu bạn ko trỏ thẳng nơi chứa main.py =))
+Bước 1: chạy Celery app: bạn nên  vô path app luôn bởi vì bạn đang import main trong đó, các biến môi trường có thể ko hiểu path đó đâu nếu bạn ko trỏ thẳng nơi chứa main.py =))
 
-	Bước 2: chạy Flask app bạn nên  vô path app luôn bởi vì bạn đang import main trong đó, các biến môi trường có thể ko hiểu path đó đâu nếu bạn ko trỏ thẳng nơi chứa main.py =)) rồi lệnh chạy app cho đỡ rắc rối.
+Bước 2: chạy Flask app bạn nên  vô path app luôn bởi vì bạn đang import main trong đó, các biến môi trường có thể ko hiểu path đó đâu nếu bạn ko trỏ thẳng nơi chứa main.py =)) rồi lệnh chạy app cho đỡ rắc rối.
 	
-	Bước 3: nhập lệnh:
+Bước 3: nhập lệnh:
 	
 
  
